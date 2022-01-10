@@ -7,6 +7,10 @@ import java.util.List;
 
 public class EmployeeManagementSystemUtilities {
 
+    /**
+     * This method returns all employee data
+     * @return List of employee data
+     */
     public static List<Employee> getEmployeeData() {
 
         List<Employee> employeeList = new ArrayList<>();
